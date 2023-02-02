@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"],
+    "strict": true,
+    "allowJs": true,
+    "noEmit": true,
+  },
+  
+  "include": ["cypress/e2e/model.d.ts", "cypress/e2e/*.cy.ts"],
+  "files": ["cypress/e2e/*.spec.ts"]
+}
